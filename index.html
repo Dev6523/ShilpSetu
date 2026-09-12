@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#171514" />
+  <title>ShilpSetu — AI Market Linkage</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <div class="app-shell">
+    <header class="topbar">
+      <div class="brand">
+        <div class="brand-mark">शि</div>
+        <div>
+          <div class="brand-name">ShilpSetu</div>
+          <div class="brand-sub">AI Market Linkage</div>
+        </div>
+      </div>
+      <button class="icon-btn" id="langBtn" title="Language">अ</button>
+    </header>
+
+    <main id="app"></main>
+
+    <nav class="bottom-nav">
+      <button data-route="dashboard" class="nav-item active"><span>⌂</span><small>Home</small></button>
+      <button data-route="products" class="nav-item"><span>▣</span><small>Products</small></button>
+      <button data-route="marketplace" class="nav-item"><span>₹</span><small>Market</small></button>
+      <button data-route="analytics" class="nav-item"><span>◔</span><small>Impact</small></button>
+    </nav>
+  </div>
+
+  <div class="toast" id="toast"></div>
+  <script src="js/app.js"></script>
+</body>
+</html>
